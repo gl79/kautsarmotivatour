@@ -2457,3 +2457,241 @@ section {
   width: 100%;
   height: 100%;
 }
+
+/*--------------------------------------------------------------
+# Details
+--------------------------------------------------------------*/
+.details .content+.content {
+  margin-top: 100px;
+}
+
+.details .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #800080;
+}
+
+.details .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details .content ul li {
+  padding-bottom: 10px;
+}
+
+.details .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #800080;
+}
+
+.details .content p:last-child {
+  margin-bottom: 0;
+}
+
+.details .content {
+  background-color: #f6f9ff;
+  padding: 40px;
+}
+
+.details h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #800080;
+  text-transform: uppercase;
+}
+
+.details h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #800080;
+}
+
+.details p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+
+.details .btn-read-more {
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #800080;
+  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+}
+
+.details .btn-read-more span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.details .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.details .btn-read-more:hover i {
+  transform: translateX(5px);
+}
+
+
+/*--------------------------------------------------------------
+# hargakemitraan
+--------------------------------------------------------------*/
+.hargakemitraan .service-box {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  height: 100%;
+  padding: 60px 30px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.hargakemitraan .service-box .icon {
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 25px;
+  display: inline-block;
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.hargakemitraan .service-box h3 {
+  color: #444444;
+  font-weight: 700;
+}
+
+.hargakemitraan .service-box .read-more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+}
+
+.hargakemitraan .service-box .read-more i {
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.hargakemitraan .service-box.blue {
+  border-bottom: 3px solid #2db6fa;
+}
+
+.hargakemitraan .service-box.blue .icon {
+  color: #2db6fa;
+  background: #dbf3fe;
+}
+
+.hargakemitraan .service-box.blue .read-more {
+  color: #2db6fa;
+}
+
+.hargakemitraan .service-box.blue:hover {
+  background: #2db6fa;
+}
+
+.hargakemitraan .service-box.orange {
+  border-bottom: 3px solid #f68c09;
+}
+
+.hargakemitraan .service-box.orange .icon {
+  color: #f68c09;
+  background: #fde3c4;
+}
+
+.hargakemitraan .service-box.orange .read-more {
+  color: #f68c09;
+}
+
+.hargakemitraan .service-box.orange:hover {
+  background: #f68c09;
+}
+
+.hargakemitraan .service-box.green {
+  border-bottom: 3px solid #08da4e;
+}
+
+.hargakemitraan .service-box.green .icon {
+  color: #08da4e;
+  background: #cffddf;
+}
+
+.hargakemitraan .service-box.green .read-more {
+  color: #08da4e;
+}
+
+.hargakemitraan .service-box.green:hover {
+  background: #08da4e;
+}
+
+.hargakemitraan .service-box.red {
+  border-bottom: 3px solid #e9222c;
+}
+
+.hargakemitraan .service-box.red .icon {
+  color: #e9222c;
+  background: #fef7f8;
+}
+
+.hargakemitraan .service-box.red .read-more {
+  color: #e9222c;
+}
+
+.hargakemitraan .service-box.red:hover {
+  background: #e9222c;
+}
+
+.hargakemitraan .service-box.purple {
+  border-bottom: 3px solid #b50edf;
+}
+
+.hargakemitraan .service-box.purple .icon {
+  color: #b50edf;
+  background: #f8e4fd;
+}
+
+.hargakemitraan .service-box.purple .read-more {
+  color: #b50edf;
+}
+
+.hargakemitraan .service-box.purple:hover {
+  background: #b50edf;
+}
+
+.hargakemitraan .service-box.pink {
+  border-bottom: 3px solid #f51f9c;
+}
+
+.hargakemitraan .service-box.pink .icon {
+  color: #f51f9c;
+  background: #feecf7;
+}
+
+.hargakemitraan .service-box.pink .read-more {
+  color: #f51f9c;
+}
+
+.hargakemitraan .service-box.pink:hover {
+  background: #f51f9c;
+}
+
+.hargakemitraan .service-box:hover h3,
+.hargakemitraan .service-box:hover p,
+.hargakemitraan .service-box:hover .read-more {
+  color: #fff;
+}
+
+.hargakemitraan .service-box:hover .icon {
+  background: #fff;
+}
