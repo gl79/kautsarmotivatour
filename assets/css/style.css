@@ -599,7 +599,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f6f9fe;
+  background-color: #e6e1f9;
 }
 
 .section-title {
@@ -859,7 +859,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #f1f6fe;
+  background: #C3ACD0;
 }
 
 .counts .count-box i {
@@ -1659,11 +1659,11 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
+  background: #800080;
   padding: 0 0 30px 0;
   color: #444444;
   font-size: 14px;
-  background: #f1f6fe;
+  background: #800080;
 }
 
 #footer .footer-newsletter {
@@ -1817,13 +1817,14 @@ section {
 #footer .copyright {
   text-align: center;
   float: left;
+  color: #fff;
 }
 
 #footer .credits {
   float: right;
   text-align: center;
   font-size: 13px;
-  color: #444444;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
