@@ -25,6 +25,10 @@ a:hover {
   background-color: #800080;
 }
 
+.btn-primary :hover {
+  background-color: #800080;
+}
+
 .btn-primary .active:hover {
   background-color: #800080;
   text-decoration: none;
@@ -1096,6 +1100,18 @@ section {
   padding: 2px 15px;
 }
 
+.portfolio .btn-primary:hover {
+  color: #FFF;
+}
+
+.portfolio .btn-primary:active {
+  color: #FFF;
+}
+
+.portfolio .btn-primary, .active:hover {
+  color: #FFF;
+}
+
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
@@ -1256,6 +1272,7 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -2695,4 +2712,22 @@ section {
 
 .hargakemitraan .service-box:hover .icon {
   background: #fff;
+}
+
+#note {
+  width: 500px;
+  overflow: hidden;
+}
+
+#note small {
+  position: relative;
+  display: inline-block;
+  animation: mymove 15s infinite;
+  animation-timing-function: all;
+  color: white;
+}
+
+@keyframes mymove {
+  from {left: -100%;}
+  to {left: 100%;}
 }
