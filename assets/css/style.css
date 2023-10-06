@@ -471,6 +471,20 @@ h6 {
   display: block;
 }
 
+#navbar .btn-get-started {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #800080;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -1509,7 +1523,7 @@ section {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #0d58ba;
+  color: #800080;
   transition: 0.3s;
 }
 
@@ -1731,7 +1745,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #0d58ba;
+  background: #800080;
 }
 
 #footer .footer-top {
@@ -1854,6 +1868,7 @@ section {
   }
 }
 
+/*** whatsapp ***/
 .float{
 	position:fixed;
 	width:45px;
@@ -2722,7 +2737,7 @@ section {
 #note small {
   position: relative;
   display: inline-block;
-  animation: mymove 15s infinite;
+  animation: mymove 12s infinite;
   animation-timing-function: all;
   color: white;
 }
